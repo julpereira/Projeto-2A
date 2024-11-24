@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #ff008c;
+  --secondary-color: #ff83a8;
+  --background-color: #ffffff;
+  --text-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: var(--text-color);
+}
+
+main {
+  padding: 2rem;
+}
+
+h1{
+  color: #ff008c;
+  font-weight: bold;
+  text-align: center;
+  top: 50%;
+}
+
