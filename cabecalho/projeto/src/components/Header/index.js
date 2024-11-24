@@ -15,6 +15,11 @@ export default function Header() {
             <div className={styles.logoContainer}>
                 <img src="/image/logo.png" alt="Logo" className={styles.logo} />
             </div>
+            <div className={styles.juliaContainer}>
+                    <Link href="/julia" className={styles.juliaLink}>
+                        Júlia Pereira
+                    </Link>
+            </div>
             <button className={styles.menuToggle} onClick={toggleMenu}>
                 <span className={styles.bar}></span>
                 <span className={styles.bar}></span>
