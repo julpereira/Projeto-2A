@@ -80,6 +80,8 @@
     color: var(--secondary-color);
 }
 
+
+
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
