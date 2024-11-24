@@ -124,7 +124,7 @@
     }
 
     .juliaContainer{
-        margin-left: 50%;
+        visibility: hidden;
     }
     
 }  
