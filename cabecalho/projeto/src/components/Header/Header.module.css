@@ -122,5 +122,9 @@
     .logoContainer {
         align-self: flex-end;  
     }
+
+    .juliaContainer{
+        margin-left: 50%;
+    }
     
 }  
