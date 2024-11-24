@@ -15,11 +15,6 @@ export default function Header() {
             <div className={styles.logoContainer}>
                 <img src="/image/logo.png" alt="Logo" className={styles.logo} />
             </div>
-            <div className={styles.juliaContainer}>
-                    <Link href="/julia" className={styles.juliaLink}>
-                        Júlia Pereira
-                    </Link>
-            </div>
             <button className={styles.menuToggle} onClick={toggleMenu}>
                 <span className={styles.bar}></span>
                 <span className={styles.bar}></span>
@@ -30,6 +25,7 @@ export default function Header() {
                     <li className={styles.navItem}><Link href="/inicio">Início</Link></li>
                     <li className={styles.navItem}><Link href="/sobre">Sobre</Link></li>
                     <li className={styles.navItem}><Link href="/contato">Contato</Link></li>
+                    <li className={styles.navItem}><Link href="/julia" className={styles.juliaLink}>Júlia Pereira</Link></li>
                 </ul>
             </nav>
         </header>

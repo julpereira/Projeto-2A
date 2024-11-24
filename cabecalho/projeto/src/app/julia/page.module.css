@@ -1,11 +1,10 @@
-.imagem{
-    border-radius: 20px;
-    display: block;
-    margin: auto;
-}
-
 .paragrafo{
     color: #ff83a8;
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .ola{
+        margin-top: 80%;
+    }
+}
