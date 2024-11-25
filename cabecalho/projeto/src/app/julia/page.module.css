@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.ola{
+    margin-top: 20%;
+}
+
 @media (max-width: 600px) {
     .ola{
         margin-top: 80%;
